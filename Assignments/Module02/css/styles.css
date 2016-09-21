@@ -1,0 +1,94 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+p {
+    padding: 4px;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+}
+
+/********** Desktop layout **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/********** Tablet layout **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/********** Mobile layout **********/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        /*float: left;*/
+    }
+}
+
+.section, .sectiontitle {
+    border: 1px solid black;
+}
+
+.section {
+    position: relative;
+    background-color: lightgray;
+    margin: 20px;
+    min-width: 201px;
+}
+
+.sectiontitle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-top: none;
+    border-right: none;
+}
+
+.sectioncontent {
+    padding-top: 35px;
+}
+
+#ChickenTitle {
+    background-color: lightgoldenrodyellow;
+}
+
+#BeefTitle {
+    background-color: lightcoral;
+}
+
+#SushiTitle {
+    background-color: lightskyblue;
+}
