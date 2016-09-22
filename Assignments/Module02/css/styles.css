@@ -14,14 +14,10 @@ h1 {
 }
 
 p {
-    padding: 4px;
+    padding: 4px; /* General default padding for all text */
 }
 
 
-/* Simple Responsive Framework. */
-.row {
-    width: 100%;
-}
 
 /********** Desktop layout **********/
 @media (min-width: 992px) {
@@ -49,8 +45,15 @@ p {
 /********** Mobile layout **********/
 @media (max-width: 767px) {
     .col-sm-12 {
-        /*float: left;*/
+        float: left;
     }
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+    padding-left: 20px; /* These add a bit to account for the cumulative margins between the sections */
+    padding-right: 20px;
 }
 
 .section, .sectiontitle {
