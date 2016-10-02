@@ -1,0 +1,41 @@
+/** Assignment Module 03**/
+
+body {
+    font-size: 16px;
+    color: darkgray;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: darkgray;
+    border-radius: 0;
+    border: 0;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+.navbar-brand h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.section {
+    background-color: powderblue;
+    margin: 5px;
+}
+
+
+.sectioncontent {
+    margin: 10px;
+    min-height: 1000px;
+}
